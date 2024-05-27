@@ -3,6 +3,10 @@
 ## Intro:
 This repo to utilize the GPUs in MacBooks with Apple Silicon M1~M3.
 
+## process.ipynb
+
+A simple notebook that performs multiplying two matrices by the cpu and the MacBook GPU and compares the time required.
+
 
 ## Creating the virtual environment:
 
@@ -17,6 +21,19 @@ pip install -U pip
 pip install torch torchvision torchaudio
 ```
 
+
+## Installing TensorFlow:
+
+```
+pip install tensorflow tensorflow-macos tensorflow-metal
+```
+
+
+## Installing JAX:
+
+```
+pip install jax-metal ml_dtypes==0.2.0 jax==0.4.26 jaxlib==0.4.26
+```
 
 
 # Resources:
